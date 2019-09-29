@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="ru-RU">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML - Формы | Дополнительно</title>
+    </head>
+    <body>
+        <form action="/" method="get">
+            Имя:<br>
+            <input type="text" name="firstname" value="" maxlength="2" size="40">
+            <br>
+            Фамилия:<br>
+            <input type="text" name="lastname" value="" size="40">
+            <br>
+            <label><input type="radio" name="gender" value="male" checked>М</label><br>
+            <label><input type="radio" name="gender" value="female">Ж</label><br>
+            <label><input type="radio" name="gender" value="other">?</label><br>
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat" selected>Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            Пароль:<br>
+            <input type="password" name="psw"><br>
+            <textarea name="message" rows="10" cols="30"></textarea><br>
+            <label><input type="checkbox" name="vehicle1" value="Bike">Беру мотоцикл</label><br>
+            <label><input type="checkbox" name="vehicle2" value="Car">Беру автомобиль</label><br>
+            <input type="text" name="onlyread" value ="Можно только читать" readonly><br>
+            <input type="text" name="disabled" value ="Элемент не доступен" disabled><br>
+            <br><br>
+            <input type="submit" value="Отправить форму">
+            <input type="reset" value="Сбросить значения">
+        </form> 
+    </body>
+</html>
